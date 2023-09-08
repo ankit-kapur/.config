@@ -8,7 +8,7 @@
 		"node8DeploysDisabledAfter": 1613390400000,
 		"node8RuntimeDisabledAfter": 1615809600000,
 		"node8WarnAfter": 1600128000000,
-		"fetched": 1684374566661
+		"fetched": 1687055953981
 	},
 	"usage": true,
 	"user": {
@@ -23,14 +23,14 @@
 		"exp": 1673410931
 	},
 	"tokens": {
-		"expires_at": 1684378165596,
+		"expires_at": 1687059552852,
 		"refresh_token": "1//06Ki5gfpYw1pCCgYIARAAGAYSNwF-L9IriNYw-fQX7Ci1WMve4ZFF9WFxpu7WGVZqdq-SlT_2PTMAMiU8ckAyMhl3irhVvsAa0ac",
 		"scopes": [],
-		"access_token": "ya29.a0AWY7CkkAURMglCPdS6uEXztgpXHloUM-wX8NS27bEzr9K_uuN8SkYEgSO8Jv0_LV7eQp3VlNHYUvaUNOshpl74hlXlXhZKfmOfNRk_g3aej9Zg16lRByVnz1t-jg3HMW06PPSWPsgGQtZ6XG91QtITKoEVcC70lrK7EFzQIaCgYKAdQSARMSFQG1tDrp_0MXN2PMet0uSw_QpD6AsA0174",
+		"access_token": "ya29.a0AWY7CkkcG4EeH5nbKLi30CX2eTzE0JZ6bQv-GTuTHz6ZwKLhtdZogjAD_IhIMpgpUK7b3AZolVwChgzBc_EKyS6hdWBsagCPWpqx2fdOfaWwqCZIXLF55C217JdEfc0OFMv5eSVXu4BsQsd4YB8cKMratf2d_-E1SLFT-CUaCgYKAVYSARMSFQG1tDrpQXHaEEKycCk-k-RG7slsTg0174",
 		"expires_in": 3599,
-		"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly openid",
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid",
 		"token_type": "Bearer",
-		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMjgzOGMxYzhiZjllZGNmMWY1MDUwNjYyZTU0YmNiMWFkYjViNWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExNDY1Mzg1MzMwMjc3OTM5NTc2IiwiZW1haWwiOiJhbmtpdGFqYXlrYXB1ckBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InlVbzdZV2pkQTA4UjhrVWZVV0hKb1EiLCJpYXQiOjE2ODQzNzQ1NjYsImV4cCI6MTY4NDM3ODE2Nn0.nGlTY4DCi9OtqYYBCIKOQgLx9HHdqoF087iQIYBbxRp1U34KA9lpOaJXC3I_ufIghuSX_tHdaPOC07QM-fvbl1QBcm-z22sa3V-R2LXc-bTlD0ZwThnhgVuDw6PrOscBz_JBBGZd2BdyE5hVHrGfJpQ2FJh7FxZ1LvVn4PJns0YKcjUdySt0AimntmINiROr2KK5Ksc4G6gCjdclUYq6OLEhzwx_ZuvZl_XZJuv8sszEmNoU3grvkTgVfKFQzBMh5Un7jEbv9qu6wr2nfWMyeH-APqsP_UxI76_oYHA0D5yP0YpJs0jd80f8TQYZKuEE0BrADszNogM3TqTn1rzLrg"
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA1MTUwYTEzMjBiOTM5NWIwNTcxNjg3NzM3NjkyODUwOWJhYjQ0YWMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExNDY1Mzg1MzMwMjc3OTM5NTc2IiwiZW1haWwiOiJhbmtpdGFqYXlrYXB1ckBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InhlZ3dYSVI1QWt3ME5zYmZpQlhmU3ciLCJpYXQiOjE2ODcwNTU5NTMsImV4cCI6MTY4NzA1OTU1M30.bdWyL2SjswsZorraq_fC5yJZ14sm0GL6dM-hYKSohHkgXy9OJ4q8BPbQH3IXdUfM1ygQOCSrWNaYS7DcJTQAn6a9G2VXmZyZPA4mZrNSvmTepDGvgDYIp4JTrDm0HXei4U6vyXmy0vPNiZ2zdYrFRyNQFv6q4ydtsKk8IOkFPGiyKVTmt2Le9hWRfgKIwfVIsTxMsTjwYg77ThqiFR0uYmVIJGBkCBD30W0yjdHf5FDiP9o6iTCCvGhXNj3v7pSVk_FNguouf2B8WDueH2CBPt7wPijhuZaUhCjq3GRmwPxTUqpie0ydX23Vszwu01ns212-JxOWhdEb5pyaXQZkaQ"
 	},
 	"activeProjects": {
 		"/Users/affogato/Desktop/Proyectos 🚀/Calendar script/habtivity-wizard": "lizardwizard-dda1c",
