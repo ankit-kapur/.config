@@ -20,18 +20,14 @@
             },
             "devices": [
                 {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 13330,
+                        "vendor_id": 14
+                    },
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [
-                        {
-                            "from": {
-                                "key_code": "delete_forward"
-                            },
-                            "to": [
-                                {
-                                    "shell_command": "open -a 'Chrome' -n"
-                                }
-                            ]
-                        },
                         {
                             "from": {
                                 "key_code": "f1"
@@ -48,7 +44,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open /Applications/Notion.app"
+                                    "shell_command": "open -a Notion"
                                 }
                             ]
                         },
@@ -58,7 +54,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -aSpotify"
+                                    "shell_command": "open -a TickTick"
                                 }
                             ]
                         },
@@ -68,7 +64,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open /Applications/Visual\\ Studio\\ Code.app"
+                                    "shell_command": "open -a 'Calendar (TickTick)'"
                                 }
                             ]
                         },
@@ -88,7 +84,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a iTerm -n"
+                                    "shell_command": "open /Applications/Visual\\ Studio\\ Code.app"
                                 }
                             ]
                         },
@@ -124,31 +120,35 @@
                         },
                         {
                             "from": {
-                                "key_code": "pause"
+                                "key_code": "print_screen"
                             },
                             "to": [
                                 {
-                                    "shell_command": "open ~/Desktop"
+                                    "shell_command": "open /Users/affogato/Library/CloudStorage/GoogleDrive-ankitajaykapur@gmail.com/My\\ Drive"
                                 }
                             ]
                         },
                         {
                             "from": {
-                                "key_code": "print_screen"
+                                "key_code": "pause"
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a 'Notion' -n"
+                                    "shell_command": "open -a 'Chrome' -n"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_forward"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "osascript -e 'tell application \"System Events\" to key code 49 using option down'"
                                 }
                             ]
                         }
                     ],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 13330,
-                        "vendor_id": 14
-                    },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": [
