@@ -34,7 +34,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a 'Chrome'"
+                                    "apple_vendor_keyboard_key_code": "brightness_down"
                                 }
                             ]
                         },
@@ -44,7 +44,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a Notion"
+                                    "apple_vendor_keyboard_key_code": "brightness_up"
                                 }
                             ]
                         },
@@ -54,7 +54,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a TickTick"
+                                    "shell_command": "open -a 'Chrome'"
                                 }
                             ]
                         },
@@ -64,7 +64,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a 'Calendar (TickTick)'"
+                                    "shell_command": "open -a TickTick"
                                 }
                             ]
                         },
@@ -74,7 +74,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open /Applications/reMarkable.app"
+                                    "shell_command": "open -a Notion"
                                 }
                             ]
                         },
@@ -84,7 +84,7 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open /Applications/Visual\\ Studio\\ Code.app"
+                                    "shell_command": "open /Applications/reMarkable.app"
                                 }
                             ]
                         },
