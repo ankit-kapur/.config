@@ -20,25 +20,21 @@
             },
             "devices": [
                 {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 13330,
+                        "vendor_id": 14
+                    },
                     "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [
-                        {
-                            "from": {
-                                "key_code": "// comments"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "Royal Kludge Rk84 75% (Lakers purple)"
-                                }
-                            ]
-                        },
                         {
                             "from": {
                                 "key_code": "f1"
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a TickTick"
+                                    "apple_vendor_keyboard_key_code": "brightness_down"
                                 }
                             ]
                         },
@@ -48,17 +44,111 @@
                             },
                             "to": [
                                 {
-                                    "shell_command": "open -a 'Visual Studio Code'"
+                                    "apple_vendor_keyboard_key_code": "brightness_up"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f3"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open -a 'Chrome'"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f4"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open -a TickTick"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f5"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open -a Notion"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f6"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open /Applications/reMarkable.app"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f7"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "vk_consumer_previous"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f8"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "vk_consumer_play"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "f9"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "vk_consumer_next"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "print_screen"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open /Users/affogato/Library/CloudStorage/GoogleDrive-ankitajaykapur@gmail.com/My\\ Drive"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "pause"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open -a 'Chrome' -n"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_forward"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "osascript -e 'tell application \"System Events\" to key code 49 using option down'"
                                 }
                             ]
                         }
                     ],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 13330,
-                        "vendor_id": 14
-                    },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": [
@@ -129,7 +219,7 @@
                         "product_id": 834,
                         "vendor_id": 1452
                     },
-                    "ignore": false,
+                    "ignore": true,
                     "manipulate_caps_lock_led": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
@@ -285,7 +375,99 @@
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
                     "simple_modifications": [
+
                         {
+                            "description": "Slash --> Previous song",
+                            "from": {
+                                "key_code": "keypad_slash"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "rewind"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Asterisk --> PAUSE/PLAY",
+                            "from": {
+                                "key_code": "keypad_asterisk"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "play_or_pause"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Hyphen --> Next song",
+                            "from": {
+                                "key_code": "keypad_hyphen"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "fast_forward"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Encoder clicked once ---> Mission control",
+                            "from": {
+                                "key_code": "q"
+                            },
+                            "to": [
+                                {
+                                    "apple_vendor_keyboard_key_code": "mission_control"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Encoder double clicked ---> App expose",
+                            "from": {
+                                "key_code": "r"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "down_arrow",
+                                    "modifiers": "control"
+                                }
+                            ]
+                        },
+
+                        {
+                            "description": "Encoder rotated RIGHT; Move to MacOS right space.",
+                            "from": {
+                                "key_code": "page_down"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "osascript -e 'tell application \"System Events\" to key code 124 using control down'"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Encoder rotated LEFT; Move to MacOS left space.",
+                            "from": {
+                                "key_code": "page_up"
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "osascript -e 'tell application \"System Events\" to key code 123 using control down'"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "NUM + Encoder rotated LEFT ---> Right arrow",
+                            "from": {
+                                "key_code": "quote"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_arrow"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "NUM + Encoder rotated RIGHT ---> Right arrow",
                             "from": {
                                 "key_code": "grave_accent_and_tilde"
                             },
@@ -295,20 +477,22 @@
                                 }
                             ]
                         },
+
+                        
                         {
+                            "description": "Num 1 pressed once ---> Left tab ---- ⭐️ NOT WORKING",
                             "from": {
                                 "key_code": "keypad_1"
                             },
                             "to": [
                                 {
                                     "key_code": "tab",
-                                    "modifiers": [
-                                        "left_shift,left_control"
-                                    ]
+                                    "modifiers": ["left_shift,left_control"]
                                 }
                             ]
                         },
                         {
+                            "description": "Num 2 pressed once ---> Close tab",
                             "from": {
                                 "key_code": "keypad_2"
                             },
@@ -320,6 +504,7 @@
                             ]
                         },
                         {
+                            "description": "Num 3 pressed once ---> Right tab",
                             "from": {
                                 "key_code": "keypad_3"
                             },
@@ -330,104 +515,26 @@
                                 }
                             ]
                         },
+                        
                         {
-                            "from": {
-                                "key_code": "keypad_asterisk"
-                            },
-                            "to": [
-                                {
-                                    "consumer_key_code": "play_or_pause"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_hyphen"
-                            },
-                            "to": [
-                                {
-                                    "consumer_key_code": "fast_forward"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_slash"
-                            },
-                            "to": [
-                                {
-                                    "consumer_key_code": "rewind"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "open_bracket"
-                            },
-                            "to": [
-                                {
-                                    "consumer_key_code": "al_calculator"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "page_down"
-                            },
-                            "to": [
-                                {
-                                    "shell_command": "osascript -e 'tell application \"System Events\" to key code 124 using control down'"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "page_up"
-                            },
-                            "to": [
-                                {
-                                    "shell_command": "osascript -e 'tell application \"System Events\" to key code 123 using control down'"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "q"
-                            },
-                            "to": [
-                                {
-                                    "apple_vendor_keyboard_key_code": "mission_control"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "quote"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "left_arrow"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "r"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "down_arrow",
-                                    "modifiers": "control"
-                                }
-                            ]
-                        },
-                        {
+                            "description": "ENTER tapped ONCE -------> Enter (for now)",
                             "from": {
                                 "key_code": "return_or_enter"
                             },
                             "to": [
                                 {
                                     "key_code": "return_or_enter"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "PLUS tapped once",
+                            "from": {
+                                "key_code": "open_bracket"
+                            },
+                            "to": [
+                                {
+                                    "consumer_key_code": "al_calculator"
                                 }
                             ]
                         }
@@ -447,83 +554,16 @@
                     "manipulate_caps_lock_led": false,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [
-                        {
-                            "from": {
-                                "key_code": "// comments"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "<----------- Nuphy Air75 v2 Keyboard"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "insert"
-                            },
-                            "to": [
-                                {
-                                    "shell_command": "open -a Notion"
-                                }
-                            ]
-                        }
-                    ],
-
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "left_command"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "left_option"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "left_option"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "left_command"
-                                }
-                            ]
-                        }
-                    ],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 0,
-                        "vendor_id": 0
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "treat_as_built_in_keyboard": false
                 }
             ],
             "fn_function_keys": [
-                {
-                    "from": {
-                        "key_code": "// comments"
-                    },
-                    "to": [
-                        {
-                            "key_code": "Default/common config"
-                        }
-                    ]
-                },
                 {
                     "from": {
                         "key_code": "f1"
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "brightness_down"
+                            "key_code": "f1"
                         }
                     ]
                 },
@@ -533,7 +573,7 @@
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "brightness_up"
+                            "key_code": "f2"
                         }
                     ]
                 },
@@ -543,7 +583,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'Chrome' -n"
+                            "apple_vendor_keyboard_key_code": "mission_control"
                         }
                     ]
                 },
@@ -553,7 +593,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "osascript -e 'tell application \"System Events\" to key code 49 using option down'"
+                            "apple_vendor_keyboard_key_code": "spotlight"
                         }
                     ]
                 },
@@ -573,7 +613,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open /Applications/reMarkable.app"
+                            "key_code": "f6"
                         }
                     ]
                 },
@@ -583,7 +623,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "vk_consumer_previous"
+                            "consumer_key_code": "rewind"
                         }
                     ]
                 },
@@ -593,7 +633,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "vk_consumer_play"
+                            "consumer_key_code": "play_or_pause"
                         }
                     ]
                 },
@@ -603,7 +643,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "vk_consumer_next"
+                            "consumer_key_code": "fast_forward"
                         }
                     ]
                 },
@@ -634,36 +674,6 @@
                     "to": [
                         {
                             "consumer_key_code": "volume_increment"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "pause"
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open -a Notion"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "print_screen"
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open /Users/affogato/Library/CloudStorage/GoogleDrive-ankitajaykapur@gmail.com/My\\ Drive"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "delete_forward"
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open -a 'Chrome'"
                         }
                     ]
                 }

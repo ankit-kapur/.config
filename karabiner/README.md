@@ -1,28 +1,28 @@
-# 65% keymap for Mac
+# 75% keymap for Mac
 
-## Function Keys
-### F1 - F6
+## F1 - F6
 | Key | Function |
 | ----- | ----- |
-| F1 | Brightness Up |
-| F2 | Brightness Down |
-| F3 | Chrome (recent) |
-| F4 | TickTick |
-| F5 | Notion (recent) |
-| F6 | reMarkable |
+| F1 | 🔅 Brightness Down (override: TickTick ✅) |
+| F2 | 🔆 Brightness Up (override: VS code 👨🏻‍💻) |
+| F3 | 🕸️ Chrome (New window) |
+| F4 | 🎩 Alfred ~~TickTick~~  | 
+| F5 | 🎙️ Voice command ~~Notion (recent)~~ |
+| F6 | ✏️ reMarkable |
 
-
-### Media Control
+## 🔈 Media
 | Key | Function |
 | ----- | ----- |
-| F7 | Previous |
-| F8 | Pause |
-| F9 | Next |
-| F10 | Volume Mute |
-| F11 | Volume Up |
-| F12 | Volume Down |
+| F7 | ⏮️ Previous |
+| F8 | ⏯️ Pause/Play |
+| F9 | ⏭️ Next |
+| F10 | 🔈 Volume Mute |
+| F11 | 🔉 Volume Up |
+| F12 | 🔊 Volume Down |
 
-### Media Control
+## Last 3 keys
 | Key | Function |
 | ----- | ----- |
-| PS | Previous |
+| PS | 📁 Finder: New window |
+| SL | 🕷️ Notion (recent) |
+| PS | 🕸️ Chrome: recent window  |
