@@ -3,11 +3,11 @@
 ## F1 - F6
 | Key | Function |
 | ----- | ----- |
-| F1 | 🔅 Brightness Down (override: TickTick ✅) |
+| F1 | 📁 Finder: New window) |
 | F2 | 🔆 Brightness Up (override: VS code 👨🏻‍💻) |
 | F3 | 🕸️ Chrome (New window) |
-| F4 | 🎩 Alfred ~~TickTick~~  | 
-| F5 | 🎙️ Voice command ~~Notion (recent)~~ |
+| F4 | 🎩 Alfred | 
+| F5 | 🎙️ Voice command |
 | F6 | ✏️ reMarkable |
 
 ## 🔈 Media
@@ -23,6 +23,14 @@
 ## Last 3 keys
 | Key | Function |
 | ----- | ----- |
-| PS | 📁 Finder: New window |
+| PS | TickTick ✅ |
 | SL | 🕷️ Notion (recent) |
 | PS | 🕸️ Chrome: recent window  |
+
+# Inbuilt Mac-keyboard 
+
+## Overrides
+| Key | Function |
+| ----- | ----- |
+| F1 | 🔅 Brightness Down
+| F2 | 🔆 Brightness Up
