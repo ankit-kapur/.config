@@ -1,3 +1,7 @@
+# How to use
+Make a separate branch for a different use-case of a keyboard, for eg. for work. 
+Main branch is for the main use-case of the personal machine. 
+
 # 75% keymap for Mac
 
 ## F1 - F6
