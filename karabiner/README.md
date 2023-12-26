@@ -3,12 +3,12 @@
 ## F1 - F6
 | Key | Function |
 | ----- | ----- |
-| F1 | 📁 Finder: New window) |
-| F2 | 🔆 Brightness Up (override: VS code 👨🏻‍💻) |
-| F3 | 🕸️ Chrome (New window) |
-| F4 | 🎩 Alfred | 
-| F5 | 🎙️ Voice command |
-| F6 | ✏️ reMarkable |
+| F1 | ✏️ Productivity Apps (📁 Folder) |
+| F2 | ⭐️ Files (📁) |
+| F3 | 🕸️ Chrome (Recent window) |
+| F4 | 🕹️ Devices (📁 Folder) | 
+| F5 | 👨🏻‍💻 VS code |
+| F6 | 🎨 Creative (📁 Folder) |
 
 ## 🔈 Media
 | Key | Function |
@@ -23,9 +23,9 @@
 ## Last 3 keys
 | Key | Function |
 | ----- | ----- |
-| PS | TickTick ✅ |
-| SL | 🕷️ Notion (recent) |
-| PS | 🕸️ Chrome: recent window  |
+| PS | ✍🏽 reMarkable |
+| SL | 🕷️ Notion (new window) |
+| PS | 🕸️ Chrome (new window)  |
 
 # Inbuilt Mac-keyboard 
 

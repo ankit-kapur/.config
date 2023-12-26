@@ -677,21 +677,13 @@
             "fn_function_keys": [
                 {
                     "from": {
-                        "key_code": "// comments"
+                        "xxxxxx": "// comments"
                     },
                     "to": [
                         {
-                            "key_code": "Default/common config"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "delete_forward"
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open -a 'Chrome'"
+                            "comment1": "Default/common config for keyboards",
+                            "comment2": "(currently unused) 🎩 Alfred launch command below. .",
+                            "shell_command": "osascript -e 'tell application \"System Events\" to key code 49 using option down'"
                         }
                     ]
                 },
@@ -701,7 +693,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open ~/Desktop"
+                            "shell_command": "open ~/Desktop/✏️\\ Productivity"
                         }
                     ]
                 },
@@ -711,7 +703,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'Visual Studio Code'"
+                            "shell_command": "open ~/Desktop/⭐️\\ Files"
                         }
                     ]
                 },
@@ -721,7 +713,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'Chrome' -n"
+                            "shell_command": "open -a 'Chrome'"
                         }
                     ]
                 },
@@ -731,7 +723,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "osascript -e 'tell application \"System Events\" to key code 49 using option down'"
+                            "shell_command": "open ~/Desktop/🕹️\\ Devices"
                         }
                     ]
                 },
@@ -741,7 +733,7 @@
                     },
                     "to": [
                         {
-                            "consumer_key_code": "dictation"
+                            "shell_command": "open -a 'Visual Studio Code'"
                         }
                     ]
                 },
@@ -751,7 +743,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open /Applications/reMarkable.app"
+                            "shell_command": "open ~/Desktop/🎨\\ Creative"
                         }
                     ]
                 },
@@ -815,23 +807,33 @@
                         }
                     ]
                 },
+{
+                    "from": {
+                        "key_code": "print_screen"
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open /Applications/reMarkable.app"
+                        }
+                    ]
+                },
                 {
                     "from": {
                         "key_code": "pause"
                     },
                     "to": [
                         {
-                            "shell_command": "open -a Notion"
+                            "shell_command": "open -a 'Notion' -n"
                         }
                     ]
                 },
                 {
                     "from": {
-                        "key_code": "print_screen"
+                        "key_code": "delete_forward"
                     },
                     "to": [
                         {
-                            "shell_command": "open -a TickTick"
+                            "shell_command": "open -a 'Chrome' -n"
                         }
                     ]
                 }
